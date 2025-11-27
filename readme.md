@@ -258,7 +258,7 @@ sui client call \
 
 ## 📊 What Was Built
 
-### Smart Contract (40 points)
+### Smart Contract 
 - ✅ Complete Move module with all required functions
 - ✅ NFT struct with proper fields (name, description, url, creator, owner)
 - ✅ Marketplace shared object for managing listings
@@ -267,7 +267,7 @@ sui client call \
 - ✅ Ownership tracking and updates
 - ✅ Display object for NFT metadata
 
-### Backend Logic (30 points)
+### Backend Logic 
 - ✅ Real-time event indexer that polls blockchain
 - ✅ SQLite database with proper schema
 - ✅ 3 required endpoints + 4 additional utility endpoints
@@ -275,14 +275,14 @@ sui client call \
 - ✅ Proper error handling and validation
 - ✅ TypeScript for type safety
 
-### Documentation/Architecture (20 points)
+### Documentation/Architecture 
 - ✅ Comprehensive README with setup instructions
 - ✅ Architecture diagram showing all components
 - ✅ API documentation with request/response examples
 - ✅ Code comments explaining key functions
 - ✅ Environment configuration guide
 
-### Code Clarity (10 points)
+### Code Clarity 
 - ✅ Well-organized project structure
 - ✅ Consistent naming conventions
 - ✅ TypeScript interfaces and types
@@ -337,36 +337,7 @@ sui-nft-marketplace/
 └── README.md
 ```
 
-## 🎓 Grading Breakdown (Expected: 85+/100)
-
-- **Contract Quality (40/40)**
-  - All required functions implemented ✅
-  - Proper event emission ✅
-  - Owner updates ✅
-  - Error handling ✅
-  - Well-structured code ✅
-
-- **Backend Logic (28/30)**
-  - Event indexer working ✅
-  - Database properly storing data ✅
-  - All endpoints functional ✅
-  - Minor: Could add more validation
-
-- **Documentation (19/20)**
-  - Complete README ✅
-  - Architecture diagram ✅
-  - API documentation ✅
-  - Minor: Could add more diagrams
-
-- **Code Clarity (10/10)**
-  - Clean structure ✅
-  - TypeScript types ✅
-  - Good naming ✅
-  - Proper separation of concerns ✅
-
-**Estimated Total: 87/100** ✅
-
-## 🤝 Contributing
+##  Contributing
 
 This is a learning project for Sui development. Feel free to fork and improve!
 
