@@ -1,0 +1,67 @@
+# Node.js / Backend
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+backend/dist/
+backend/build/
+backend/*.log
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/.npm
+backend/.yarn-integrity
+
+# Sui Move Contract
+contract/build/
+contract/.move/
+contract/sources/*.mv.bak
+contract/.env
+
+# General .env files (catch any .env anywhere in the repo)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependency caches
+node_modules/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+.test-output/
+
+# Miscellaneous
+*.tgz
+*.zip
+*.tar.gz
+temp/
+tmp/
+
+# Local Net / Devnet keys (common in Sui projects)
+localnet/
+devnet/
+*.key
+keystore/
